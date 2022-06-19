@@ -21,11 +21,51 @@
     height: 100vh;
     background-color: black;
 }
-
-.nav p{
+.navigazione{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.icona{
+    width: 30%;
+}
+.icona img{
+    height: 25px;
+}
+.nomeIcona{
+    width: 70%;
     color: white;
-    font-weight: bold;
-    font-size: 14px;
+    align-items: center;
+    font-size: 10px;
+}
+.TitoloSezione{
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.NuovePlaylist .navigazione{
+    height: 42px;
+}
+#gray{
+    background-color: #7d7f84;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+#gray i{
+    font-size: 25px;
+    color: #080b12;
+}
+.NuovePlaylist{
+    color: #7b7e82;
+    font-size: 13px;
+}
+.NuovePlaylist p{
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .logo{
