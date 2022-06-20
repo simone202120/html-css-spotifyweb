@@ -13,7 +13,7 @@
 .MainContainer{
     display: flex;
     width: 100vw;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 60px);
     background-color: #141922;
 }
 .menùNav{
@@ -27,13 +27,16 @@
     height: 20px;
     margin-bottom: 5px;
     padding-left: 10px;
+    
 }
 .icona{
     width: 20px;
     color: #7b7e82;
+    margin-right: 5px;
 }
 .icona img{
     height: 20px;
+    color: #7d7f84;
 }
 .nomeIcona{
     width: 70%;
@@ -73,6 +76,7 @@
 .NuovePlaylist p{
     padding-left: 10px;
     padding-top: 10px;   
+    
 }
 .menùfoot{
     min-height: 70px;
@@ -82,7 +86,7 @@
     font-size: 12px;
     flex-wrap: wrap;
     align-items: flex-end;
-    margin-bottom: 82px;
+    margin-bottom: 60px;
     padding-bottom: 5px;
     background-color: black;
 }
@@ -229,10 +233,107 @@ color: #7b7e82;
     border-radius: 50%;
 }
 .riproduzione{
-    height: 80px;
+    height: 60px;
     background-color: #282828;
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.anteprima{
+    height: 100%;
+    width: 20%;
+    color: white;
+    align-items: center;
+    position: relative;
+}
+.middle h4{
+  font-size: 15px;
+}
+.middle p{
+    font-size: 9px;
+    margin-top: 5px;
+  }
+
+  .iconeFoot{
+    color: #7b7e82;
+    position: absolute;
+    right: 0;
+  }
+  .iconeFoot i{
+    margin-right: 10px;
+  }
+
+.ascolto{
+    height: 100%;
+    width: 40%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+.volume{
+    height: 100%;
+    width: 20%;
+    color: white;
+    font-size: 12px;
+    justify-content: space-around;
+    align-items: center;
+}
+.comandi{
+    height: 50%;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: baseline;
+}
+.tempo{
+    height: 50%;
+    align-items: baseline;
+    color: white;
+    justify-content: space-between;
+    font-size: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.anteprima img{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.play{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    justify-content: center;
+    margin-right: 20px;
+} 
+.play i{
+    margin: auto;
+    margin-left: 22px;
+}
+
+.comandi i{
+    margin-right: 20px;
+}
+
+.avanzamento{
+    height: 3px;
+    background-color:#7d7f84;
+    width: 75%;
+}
+.avanzamento2{
+    height: 100%;
+    background-color: white;
+    width: 60%;
+}
+.avanzamentoVol{
+    height: 3px;
+    width: 50%;
+    background-color: #7b7e82;
 }
