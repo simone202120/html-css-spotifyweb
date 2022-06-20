@@ -13,71 +13,125 @@
 .MainContainer{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 80px);
     background-color: #141922;
 }
 .menùNav{
     width: 150px;
     height: 100vh;
     background-color: black;
+    flex-direction: column;
 }
 .navigazione{
     width: 100%;
-    height: 30px;
-    margin-bottom: 10px;
+    height: 20px;
+    margin-bottom: 5px;
     padding-left: 10px;
 }
 .icona{
-    width: 30%;
+    width: 20px;
+    color: #7b7e82;
 }
 .icona img{
-    height: 25px;
+    height: 20px;
 }
 .nomeIcona{
     width: 70%;
-    color: white;
+    color: gray;
     align-items: center;
-    font-size: 10px;
+    font-size: 12px;
+   
 }
 .TitoloSezione{
     color: white;
     padding-left: 10px;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 15px;
 }
 .NuovePlaylist .navigazione{
-    height: 42px;
+    height: 20px;
 }
 #gray{
     background-color: #7d7f84;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+    height: 30px;
+    width: 30px;
 }
 #gray i{
-    font-size: 25px;
+    font-size: 20px;
     color: #080b12;
+   
 }
 .NuovePlaylist{
     color: #7b7e82;
     font-size: 13px;
+    flex-direction: column;
 }
 .NuovePlaylist p{
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 10px;   
+}
+.menùfoot{
+    min-height: 70px;
+    width: 90%;
+    margin: auto;
+    color: #7b7e82;
+    font-size: 12px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 82px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+.downloadApp{
+    height: 30px;
+    border-bottom: solid 1px gray;
+    width: 90%;
+    padding-bottom: 5px;
+    
+}
+.downloadApp img{
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.user img{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-right: 8px;
+    background-color: #7b7e82;
+    border-radius: 50%;
+}
+.user span{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
 }
 
 .logo{
     margin-top: 5px;
     padding: 10px;
 }
+.logo i{
+    height: 40px;
+
+}
+ .NuovePlaylist{
+    min-height: 40%;
+ }
 
 .CorpoPagina{
     width: calc(100vw - 150px);
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 .CTA{
     width: calc(100%);
@@ -154,7 +208,7 @@ button{
     color: #7b7e82;
     text-align: center;
     margin-top: 10px;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
 }
 .DescrizioneSez p{
@@ -173,4 +227,12 @@ color: #7b7e82;
 }
 .radius img{
     border-radius: 50%;
+}
+.riproduzione{
+    height: 80px;
+    background-color: #282828;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
