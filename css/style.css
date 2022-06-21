@@ -128,9 +128,8 @@
     margin-top: 5px;
     padding: 10px;
 }
-.logo i{
-    height: 40px;
-
+#logosmall{
+    display: none;
 }
 
 
@@ -168,6 +167,7 @@ button{
     font-size: 11PX;
     font-weight: bold;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 .MenùSelezione a{
     padding:5px;
@@ -183,13 +183,14 @@ button{
 .BoxCopertine{
     width: 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
+   
     margin-bottom: 30px;
 }
 .copertine{
     flex-direction: column;
-    width: calc(90% / 6);
+    width: calc(98% / 6);
     margin-top: 30px;
+    padding-right: 15px;
 }
 .hooverImg{
     height: 100%;
@@ -242,7 +243,7 @@ button{
     justify-content: flex-start;
 }
 #Personale .copertine{
-    margin-right: 20px;
+    padding-right: 20px;
 }
 .margin{
     margin-top: 20px;
@@ -389,3 +390,56 @@ a:hover{
     background-color: lightgreen;
 }
 
+/*MEDIA QUERY*/
+
+@media  screen and (max-width:968px){
+    .copertine{
+        width: calc(98% / 4);
+    }
+}
+
+@media screen and (max-width:678px){
+    .copertine{
+        width: calc(98% / 2);
+    }
+}
+@media screen and (max-width:478px){
+    .logo img{
+        display: none;
+        margin-left: -5px;
+    }
+    .nomeIcona{
+        display: none;
+    }
+    .NuovePlaylist{
+        display: none;
+    }
+    .menùfoot span{
+        display: none;
+    }
+    .menùfoot{
+        padding-left: 10px;
+    }
+    .menùNav{
+        width: 40px;
+    }
+    .user img{
+        width: 20px;
+        height: 20px;
+    }
+  
+    .CorpoPagina{
+        width: 100%;
+    }
+    #logosmall{
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+    }
+    .downloadApp{
+        border:none;
+    }
+    #bigbutton{
+        margin-right: 70px;
+    }
+}
